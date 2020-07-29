@@ -1,3 +1,17 @@
+ Accept a String input
+- Print the number of opening braces and closing braces in the input String
+- Verify if every opening brace has an equivalent closing brace. Print well formed if every opening brace has an equivalent closing brace.
+Print invalid if every opening brace does not have an equivalent closing brace
+Eg. If the String input is
+{ test {} }
+then the output should be as below
+Opening braces - 2, Closing braces - 2  
+
+
+
+
+
+PROGRAM
 #include<iostream.h>
 using namespace std::string
 int countpairs(string braces[],int num)

@@ -1,3 +1,11 @@
+1.  
+Write a program to record notes entered by a user. The program should do the following things:
+First asks the user’s name.
+Asks the user to enter a single-line note. After the user enters the note, it should get stored in USERNAME_notes.txt on a new line.
+The user will be asked to enter multiple notes in a loop till he/she types exit.  
+
+PROGRAM
+
 #include <stdio.h>
 int main()
 {
@@ -9,7 +17,7 @@ int main()
      /* Opening a file in r mode*/
      fp1= fopen ("C:\\myfiles\\newfile.txt", "r");
 
-     /* Infinite loop �I have used break to come out of the loop*/
+     /* Infinite loop –I have used break to come out of the loop*/
      while(1)
      {
         c = fgetc(fp1);
